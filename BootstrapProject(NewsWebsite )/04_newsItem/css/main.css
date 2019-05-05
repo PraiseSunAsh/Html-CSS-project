@@ -1,0 +1,58 @@
+a:hover{
+    text-decoration: none;
+}
+img{
+    /* 图片不超过母元素大小 */
+    display: block;
+    max-width: 100%;
+    border-radius: 3px;
+}
+.navbar-brand{
+    background-image: url(../img/logo.png);
+    width: 50px;
+    /* 可以设置图片的尺寸是width的多少 */
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.side-bar .list-group-item{
+    border: 0;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+    /* 只要有个项目是激活的，就... PS：中间没有空格*/
+.side-bar .list-group-item.active{
+    background-color: #ea0c3c;
+}
+.news-list-item .title{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    /* 这个地方如果不改为block则上面的margin作用不上 */
+    display: block;
+    color: #444;
+}
+.news-list-item .title:hover{
+    color: #337ab7;
+}
+.news-list-item .info{
+    color: #888;
+}
+.avatar{
+    display: inline-block;
+}
+.avatar img{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+.news-list-item{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+.news-list-item:first-child{
+    padding-top: 0;
+}
