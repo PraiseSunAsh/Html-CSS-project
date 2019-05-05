@@ -92,3 +92,6 @@ img{
 #flag1{
     padding-bottom: 0;
 }
+.search-bar .form-control{
+    color: gray;
+}
